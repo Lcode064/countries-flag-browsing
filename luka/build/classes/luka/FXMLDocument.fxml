@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="432.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="luka.FXMLDocumentController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#55c968" height="493.0" layoutX="-1.0" stroke="#55c968" strokeType="INSIDE" width="132.0" />
+      <Button layoutX="6.0" layoutY="190.0" mnemonicParsing="false" onAction="#belgium" opacity="0.8" prefHeight="25.0" prefWidth="119.0" text="Belgium" />
+      <Button layoutX="6.0" layoutY="151.0" mnemonicParsing="false" onAction="#ireland" opacity="0.73" prefHeight="25.0" prefWidth="119.0" text="Ireland" />
+      <Button layoutX="6.0" layoutY="226.0" mnemonicParsing="false" onAction="#roma" opacity="0.84" prefHeight="25.0" prefWidth="119.0" text="Italy" />
+      <Button layoutX="6.0" layoutY="262.0" mnemonicParsing="false" onAction="#lesotho" opacity="0.75" prefHeight="25.0" prefWidth="119.0" text="Nigeria" />
+      <Button layoutX="6.0" layoutY="300.0" mnemonicParsing="false" onAction="#paris" opacity="0.75" prefHeight="25.0" prefWidth="119.0" text="France" />
+      <Button layoutX="5.0" layoutY="337.0" mnemonicParsing="false" onAction="#mzanzi" opacity="0.75" prefHeight="25.0" prefWidth="119.0" text="South Africa" />
+      <Button layoutX="6.0" layoutY="372.0" mnemonicParsing="false" onAction="#delhi" opacity="0.75" prefHeight="25.0" prefWidth="119.0" text="India" />
+      <Button layoutX="5.0" layoutY="410.0" mnemonicParsing="false" onAction="#refresh" opacity="0.75" prefHeight="25.0" prefWidth="119.0" text="Reset" />
+      <Label fx:id="country" layoutX="165.0" layoutY="14.0" text="Fun With Flags">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="5.0" layoutY="115.0" prefHeight="19.0" prefWidth="119.0" text="S e k h u t l o n g">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Label>
+      <Text fx:id="rt" layoutX="165.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="167.0" layoutX="167.0" layoutY="68.0" stroke="#b5afaf" strokeType="INSIDE" width="229.0" />
+      <Label layoutX="151.0" layoutY="279.0" text="Name:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="302.0" text="Capital:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="327.0" text="Population:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="352.0" text="Continent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="376.0" text="Currency:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Text fx:id="name" layoutX="281.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N/A" />
+      <Text fx:id="capital" layoutX="281.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N/A" />
+      <Text fx:id="population" layoutX="281.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N/A" />
+      <Text fx:id="continent" layoutX="281.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N/A" />
+      <Text fx:id="currency" layoutX="281.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N/A" />
+      <Rectangle fx:id="leftB" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="161.0" layoutX="172.0" layoutY="70.0" stroke="WHITE" strokeType="INSIDE" width="82.0" />
+      <Rectangle fx:id="rightB" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="161.0" layoutX="318.0" layoutY="70.0" stroke="WHITE" strokeType="INSIDE" width="74.0" />
+      <Rectangle fx:id="centerB" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="161.0" layoutX="244.0" layoutY="70.0" stroke="WHITE" strokeType="INSIDE" width="82.0" />
+      <ImageView fitHeight="139.0" fitWidth="279.0" layoutX="-83.0" layoutY="-9.0">
+         <image>
+            <Image url="@../logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="3.0" layoutY="444.0" mnemonicParsing="false" onAction="#exit" opacity="0.75" prefHeight="25.0" prefWidth="119.0" text="Exit" />
+   </children>
+</AnchorPane>
